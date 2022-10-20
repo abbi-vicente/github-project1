@@ -101,12 +101,15 @@ h1 {
 	font-size: 5em;
 }
 /* Buttons to take you to about section and to view all projects */
+
 .about-button,
 .projects-button {
+	color: #39aea9;
 	height: 3vh;
 	display: flex;
 	justify-content: center;
 	margin-top: 2vh;
+	border-radius: 10vh;
 }
 button a {
 	font-size: 2vh;
