@@ -138,7 +138,7 @@ button a:hover {
 }
 .facebook:hover,
 .linkedin:hover,
-.gitlab:hover {
+.github:hover {
 	opacity: 0.5;
 }
 
@@ -323,6 +323,20 @@ h2 {
 	display: flex;
 	flex-wrap: nowrap;
 	border-radius: 1.5vh;
+}
+.links img {
+	height: 3.5vh;
+	width: 3.5vh;
+	margin: 1vh;
+}
+.links img:hover {
+	opacity: 0.75;
+	transform: scale(1.25);
+}
+.links {
+	display: flex;
+	justify-content: center;
+	margin: 1.2vh;
 }
 h3 {
 	color: #39aea9;
@@ -555,6 +569,20 @@ footer a {
 		margin-top: 1vh;
 		padding-bottom: 15%;
 	}
+	.links img {
+		height: 3.5vh;
+		width: 3.5vh;
+		margin: 1vh;
+	}
+	.links img:hover {
+		opacity: 0.75;
+		transform: scale(1.25);
+	}
+	.links {
+		display: flex;
+		justify-content: center;
+		margin: 1.2vh;
+	}
 
 	/* Contact */
 	.contact > p {
@@ -671,6 +699,20 @@ footer a {
 		display: flex;
 		flex-wrap: wrap;
 	}
+	.links img {
+		height: 3.5vh;
+		width: 3.5vh;
+		margin: 1vh;
+	}
+	.links img:hover {
+		opacity: 0.75;
+		transform: scale(1.25);
+	}
+	.links {
+		display: flex;
+		justify-content: center;
+		margin: 1.2vh;
+	}
 
 	/* Contact */
 	.contact > p {
@@ -715,6 +757,20 @@ footer a {
 	.box-3 img,
 	.box-4 img {
 		width: 30vh;
+	}
+	.links img {
+		height: 3.5vh;
+		width: 3.5vh;
+		margin: 1vh;
+	}
+	.links img:hover {
+		opacity: 0.75;
+		transform: scale(1.25);
+	}
+	.links {
+		display: flex;
+		justify-content: center;
+		margin: 1.2vh;
 	}
 	.socials {
 		padding-top: 5vh;
