@@ -101,29 +101,30 @@ h1 {
 	font-size: 5em;
 }
 /* Buttons to take you to about section and to view all projects */
-
 .about-button,
 .projects-button {
-	color: #39aea9;
 	height: 3vh;
 	display: flex;
 	justify-content: center;
 	margin-top: 2vh;
-	border-radius: 10vh;
+}
+button {
+	font-size: 2vh;
+	background-color: #a2d5ab;
+	border-radius: 100px;
 }
 button a {
-	font-size: 2vh;
-	text-decoration: none;
-	decoration: none;
 	color: black;
-	background-color: #a2d5ab;
+	text-decoration: none;
 }
+button:hover,
 button a:hover {
 	font-size: 2vh;
 	text-decoration: none;
 	decoration: none;
 	background-color: #e5efc1;
 	color: black;
+	transform: scale(1.05);
 }
 /* Social Media buttons */
 .socials {
@@ -138,8 +139,9 @@ button a:hover {
 }
 .facebook:hover,
 .linkedin:hover,
-.github:hover {
+.gitlab:hover {
 	opacity: 0.5;
+	transform: scale(1.05);
 }
 
 /* All or most sections with titles */
