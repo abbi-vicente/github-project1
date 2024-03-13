@@ -138,7 +138,7 @@ button a:hover {
 }
 .facebook:hover,
 .linkedin:hover,
-.gitlab:hover {
+.github:hover {
 	opacity: 0.5;
 	transform: scale(1.05);
 }
