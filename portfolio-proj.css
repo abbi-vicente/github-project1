@@ -110,8 +110,9 @@ h1 {
 }
 button {
 	font-size: 2vh;
+	padding: 5px;
 	background-color: #a2d5ab;
-	border-radius: 100px;
+	border-radius: 90px;
 }
 button a {
 	color: black;
@@ -124,6 +125,7 @@ button a:hover {
 	decoration: none;
 	background-color: #e5efc1;
 	color: black;
+	border-radius: 90px;
 }
 /* Social Media buttons */
 .socials {
